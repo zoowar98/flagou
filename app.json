@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/detail/detail",
+    "pages/list/list",
+    "pages/my/my",
+    "pages/hot/hot",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00b38a",
+    "navigationBarTitleText": "仿拉勾网",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#00b38a"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "selectedIconPath": "images/chome.png",
+        "iconPath": "images/home.png",
+        "pagePath": "pages/list/list",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/chot.png",
+        "iconPath": "images/hot.png",
+        "pagePath": "pages/hot/hot",
+        "text": "排行榜"
+      },
+      {
+        "selectedIconPath": "images/cmy.png",
+        "iconPath": "images/my.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  }
+}

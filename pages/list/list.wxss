@@ -1,0 +1,33 @@
+/* pages/list/list.wxss */
+@font-face {
+  font-family: 'iconfont';  /* project id 1079124 */
+  src: url('//at.alicdn.com/t/font_1079124_e8p5l6uqrdd.eot');
+  src: url('//at.alicdn.com/t/font_1079124_e8p5l6uqrdd.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1079124_e8p5l6uqrdd.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1079124_e8p5l6uqrdd.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1079124_e8p5l6uqrdd.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1079124_e8p5l6uqrdd.svg#iconfont') format('svg');
+}
+page{height:100%;width:100%;font:28rpx/1.6 "微软雅黑"}
+.page{height:100%;background:rgb(255, 255, 255);width:100%;}
+button{font-size:28rpx;}
+.header{background:#00b38a;padding:80rpx 50rpx 40rpx;display:flex;flex-direction:column;text-align:center;
+box-shadow:0 0 15rpx rgba(5, 148, 115, 0.8);}
+.header text{margin-bottom:40rpx;color:#fff;font-size:60rpx;}
+.header input{flex:1;background:#fff;border:none;padding:0 10rpx;box-sizing:border-box;height:84rpx;text-align:center;border-radius:50rpx;}
+.input_ph{font-size:32rpx;color:#ccc}
+.navigator{display:flex;background:#f00;}
+.navigator navigator{flex:1;padding:15rpx 0;text-align:center;font-size:32rpx;color:#fff;}
+.tac{text-align:center;}
+.list{padding:40rpx 20rpx;}
+.tit{margin-bottom:40rpx;}
+.list-li{display:flex;border-bottom:solid 1rpx rgb(221, 221, 221);padding:26rpx 0;align-items:stretch;}
+.list-li-pic{width:130rpx;height:130rpx;border-radius:50%;align-self:center;margin-right:20rpx;}
+.list-li-info{flex:1;display:flex;line-height:1;flex-flow:column nowrap;justify-content: space-between;}
+.list-li-info>.job{font-size:32rpx;}
+.list-li-info>.ename{font-size:28rpx;color:#888;}
+.list-li-info>.tag{font-size:26rpx;color:#c2c2c2;}
+.list-li-info>.tag text{margin-right:15rpx;line-height:0;}
+.list-li-xz{line-height:1;display:flex;flex-flow:column nowrap; justify-content: space-between;text-align:right;}
+.list-li-xz .xz{color:rgb(248, 25, 25);font-size:30rpx;}
+.list-li-xz .time{color:#c2c2c2;font-size:24rpx;}

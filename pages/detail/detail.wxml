@@ -1,0 +1,41 @@
+<!--pages/detail/detail.wxml-->
+<view class="jobinfo">
+  <text class="jobinfo-tit">web前端</text>
+  <view class="jobinfo-tag">
+    <text>18K-25K</text>/
+    <text>深圳</text>/
+    <text>5-10年</text>/
+    <text>本科</text>
+  </view>
+  <text class="jobinfo-txt">职位诱惑：react vue angularJS</text>
+</view>
+<!--岗位信息-->
+<view class="companyinfo">
+  <view>
+    <text class="companyinfo-tit">音符摄氏</text>
+    <text>上市公司/200人以上/移动互联网</text>
+    <text class="companyinfo-rz">已认证</text>
+  </view>
+  <image src="../../images/list/1.png" />
+</view>
+<!--公司信息-->
+<view class="jobdsc">
+  <text class="jobdsc-tit">职位描述</text>
+  <text class="jobdsc-tag">web前端</text>
+  <view>
+   <text>[岗位职责]</text> 
+
+    <view>1. 负责公司平台中后台产品的开发</view>
+    <view>2. 负责公司小程序应用的开发。 </view>
+    <view>3. Web 前沿技术研究和新技术调研。</view>
+
+    <text>[任职资格]</text>
+    <view>1. 计算机相关专业，本科及以上学历。</view> 
+    <view>2. JS基础扎实，掌握ES6，熟悉W3C标准及规范，了解网站性能优化、体验优化等；</view> 
+    <view>3. 熟练使用主流框架(React/Vue/Angular)，熟悉 ECMAScript 编程，熟悉微信小程序、MpVue；</view> 
+   <view> 4. 有使用npm、gulp、grunt，webpack等开发工具的经验，对前端工程化与模块化开发有一定了解，并有实践经验；</view>
+    <view>5. 学习能力强，具备良好的问题定位、分析及解决能力；</view> 
+   <view> 6. 对代码质量有要求，了解前端的最佳实践，对自己要求严格的同学优先。</view> 
+   <view> 7. 如有，请附上个人博客和 Github 链接。</view>
+  </view>
+</view>

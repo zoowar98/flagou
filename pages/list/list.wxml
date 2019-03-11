@@ -1,0 +1,24 @@
+<!--pages/list/list.wxml-->
+<view class="page">
+  <view class="header" animation="{{animation}}">
+      <text>拉钩</text>
+      <input placeholder='请输入搜索职位' placeholder-class='input_ph' bindfocus='searchpag'  />
+  </view>
+  <view class="list">
+      <view class="tac tit"><text class="txt">为你推荐的好职位</text></view>
+      <view class="list-li" wx:for="{{arrList}}" bindtap='tonav'>
+          <image class="list-li-pic" src="{{item.src}}"></image>
+          <view class="list-li-info">
+              <text class="job">{{item.job}}</text>  
+              <text class="ename">{{item.ename}}</text>
+              <text class="tag">
+                  <text wx:for="{{item.tag}}" wx:for-item="tag">{{tag.tagName}}</text>
+              </text>
+          </view>
+          <view class="list-li-xz">
+              <text class="xz">{{item.xz}}</text>
+              <text class="time">{{item.time}}</text>
+          </view>
+      </view> 
+  </view>
+</view>

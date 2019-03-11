@@ -1,0 +1,19 @@
+/* pages/search/search.wxss */
+page{height:100%;font-size:28rpx;}
+button{font-size:28rpx;}
+.mod-search{background:#f7f7f7;height:100%;
+}
+.mod-search-tag{display: flex;padding:10rpx 30rpx;align-items: center;background:#fff;}
+.mod-search-btn{line-height:none;padding:0;border:0 none;background:none;}
+button::after{border:none;}
+.mod-search-tag .tagtxt{flex:1;background:#fff;border:solid 1rpx #ccc;margin:0 10rpx;border-radius:30rpx;padding:0 50rpx;box-sizing:border-box;}
+.mod-search-tag .tagtxt input{height:66rpx;}
+.mod-search-item{padding:30rpx;}
+.mod-search-item .tit{display:flex;justify-content:space-between;margin-bottom:20rpx;font-size:28rpx;}
+.mod-search-item .listbox{display:flex;}
+.mod-search-item .listbox text{border:solid 1rpx #ccc;padding:5rpx 20rpx;font-size:24rpx;
+border-radius:30rpx;margin-right:20rpx;background:#fff;}
+
+
+
+

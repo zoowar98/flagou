@@ -1,0 +1,26 @@
+<!--pages/search/search.wxml-->
+<view class="mod-search">
+    <view class="mod-search-tag">
+        <text>深圳</text>
+        <view class="tagtxt">
+          <text></text>
+          <input  />
+        </view>
+        <text bindtap='listpage'>取消</text>
+    </view>
+    <view class="mod-search-item">
+       <view class="tit"> <text>历史搜索</text><text></text></view>
+       <view class="listbox">
+            <text>前端技术经理</text>
+            <text>微微科技</text>
+       </view>
+    </view>
+   <view class="mod-search-item">
+       <view class="tit"> <text>猜你搜的</text><text></text></view>
+       <view class="listbox">
+            <text>平安人寿</text>
+            <text>自如</text>
+            <text>html5前端</text>
+       </view>
+    </view>
+</view>
